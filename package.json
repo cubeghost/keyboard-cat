@@ -5,9 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "make-fetch-happen": "^4.0.1",
-    "puppeteer": "^1.11.0",
-    "screen-info": "^1.0.1"
+    "make-fetch-happen": "^4.0.1"
   },
   "devDependencies": {
     "electron": "^3.0.11"
