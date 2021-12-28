@@ -12,12 +12,12 @@ app.on('ready', () => {
 
   fetch(url).then(response => response.json()).then(async json => {
 
-    const { image_height, image_width, image_url } = json.data;
+    const { width, height, url } = json.data.images.original;
 
-    const windowWidth = Number(image_width);
-    const windowHeight = Number(image_height);
+    const windowWidth = Number(width);
+    const windowHeight = Number(height);
 
-    const html = `data:text/html;charset=utf-8,<body style="margin:0;"><img src="${image_url}" /></body>`;
+    const html = `data:text/html;charset=utf-8,<body style="margin:0;"><img src="${url}" /></body>`;
 
     windw = new BrowserWindow({
       width: windowWidth,
