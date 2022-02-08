@@ -1,5 +1,5 @@
 # keyboard cat
-i put a cat paw keycap on my `forward_delete` key and i wanted to open a random cat gif when i press it
+i put a [cat paw keycap](https://drop.com/buy/zomo-aluminum-silicone-kitty-paw-artisan-keycap) on my `forward_delete` key and i wanted to open a random cat gif when i press it
 
 ### workflow
 install `keyboard-cat.workflow` as a service and bind it to a keyboard shortcut. i used `cmd-shift-0`
